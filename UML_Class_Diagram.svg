@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="720">
+<style>text{font-family:Arial;font-size:16px} .box{fill:white;stroke:black;stroke-width:2}</style>
+<text x="30" y="35" font-size="24" font-weight="bold">Metro Management System - UML/Class Diagram</text>
+<rect class="box" x="50" y="80" width="220" height="150"/><text x="130" y="110">User (abstract)</text><text x="70" y="145">- id</text><text x="70" y="170">- name</text><text x="70" y="195">- phone</text>
+<rect class="box" x="350" y="70" width="220" height="140"/><text x="425" y="100">Passenger</text><text x="370" y="135">- email</text><text x="370" y="165">+ getRole()</text><text x="370" y="190">+ getEmail()</text>
+<rect class="box" x="350" y="270" width="220" height="120"/><text x="435" y="300">Admin</text><text x="370" y="335">+ getRole()</text>
+<rect class="box" x="680" y="70" width="250" height="150"/><text x="770" y="100">SmartCard</text><text x="700" y="135">- cardNumber</text><text x="700" y="160">- balance</text><text x="700" y="185">- status</text>
+<rect class="box" x="680" y="280" width="250" height="140"/><text x="780" y="310">Station</text><text x="700" y="345">- stationName</text><text x="700" y="370">- lineName</text><text x="700" y="395">- distanceFromOrigin</text>
+<rect class="box" x="680" y="480" width="250" height="140"/><text x="775" y="510">Journey</text><text x="700" y="545">entryStation</text><text x="700" y="570">exitStation</text><text x="700" y="595">fare / status</text>
+<line x1="270" y1="150" x2="350" y2="140" stroke="black" stroke-width="2"/><text x="285" y="125">extends</text>
+<line x1="270" y1="180" x2="350" y2="320" stroke="black" stroke-width="2"/><text x="280" y="255">extends</text>
+<line x1="570" y1="140" x2="680" y2="140" stroke="black" stroke-width="2"/><text x="590" y="125">owns</text>
+<line x1="570" y1="160" x2="680" y2="540" stroke="black" stroke-width="2"/><text x="585" y="360">uses</text>
+<line x1="805" y1="220" x2="805" y2="280" stroke="black" stroke-width="2"/><text x="820" y="255">route</text>
+<line x1="805" y1="420" x2="805" y2="480" stroke="black" stroke-width="2"/><text x="820" y="455">contains</text>
+</svg>
