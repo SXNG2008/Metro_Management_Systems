@@ -2,11 +2,11 @@
 
 ## Overview
 
-**Metro Management System with Smart Card Integration** is a **command-line based Core Java application** designed to manage metro passengers and automate smart-card based fare processing.
+**Metro Management System with Smart Card Integation** is a **command-line based Core Java application** designed to manage metro passengers and automate smart-card based fare processing.
 
 The system allows passengers to register, log in, obtain a smart card, recharge their balance, enter and exit metro stations, and automatically calculate and deduct fares based on travel distance.
 
-The project demonstrates **Core Java, Object-Oriented Programming, JDBC, MySQL connectivity, exception handling, and command-line application development**.
+The project demonstrates **Core Java, Object-Oriented Programming, JDBC, MySQL connnectivity, exception handling, and command-line application development**.
 
 ## Features
 
