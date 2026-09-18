@@ -6,9 +6,9 @@
 
 Traditional metro ticketing systems often require passengers to purchase tickets manually or interact with ticket counters and machines, which can result in queues, longer processing times, and inconvenience during peak hours.
 
-The proposed **Metro Management System with Smart Card Integration** is designed to provide a convenient and efficient smart-card-based transportation management solution. The system allows passengers to register, obtain a smart card, recharge the card balance, enter and exit metro stations, and automatically deduct the appropriate fare based on the distance travelled.
+The proposed **Metro Management System with Smart Card Integration** is designed to provide a convenient and effficient smart-card-based transportation management solution. The system alows passengers to register, obtain a smart card, recharge the card balance, enter and exit metro stations, and automatically deduct the appropriate fare based on the distance travelled.
 
-The system maintains passenger, smart-card, station, journey, and transaction information in a **MySQL database**. The application is developed using **Core Java and JDBC**, providing database connectivity and reliable processing of metro-related operations.
+The system maintains passenger, smart-card, station, journey, and transaction informtion in a **MySQL database**. The application is developed using **Core Java and JDBC**, providing database connectivity and reliable processing of metro-related operations.
 
 ---
 
